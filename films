@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Кіно</title>
+         <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#h1">Головна</a>
+                <a href="#p">Про нас</a>
+                <a href="#h2">Жанри</a>
+                <a href="#foot">Контакти</a>
+            </nav>
+        </header>
+        <main>
+            <h1 id="h1">Кіно</h1>
+            <p id="p">Тут ви знайдете інформацію про кіно та його жанри</p>
+            <img src="https://static.ukrinform.com/photos/2018_12/thumb_files/630_360_1546000648-830.jpg">
+            <h2 id="h2">Жанри</h2>
+            <h3>Комедії, Хоррори, Драми, Бойовічки, Трилери та Детектіви</h3>
+            <table>
+                <tr>
+            <td><h4>Кращі Комедії:Брюс Всемогутній, Маска, Дурний й ще дурніше</h4></td>
+            <td><h4>Кращі Хоррори:Сайлент Хілл, Зловісні Мерці, Астрал</h4></td>
+            <td><h4>Кращі Драми:Тітанік, Хатіко, Зелена миля</h4></td>
+            <td><h4>Кращі Бойовічки:Термінатор, Рембо, Міцний горішок</h4></td>
+            <td><h4>Кращі Трилери:Мовчання ягнят, Пила</h4></td>
+            <td><h4>Кращі Детектіви:Ножі наголо,Шерлок Холмс</h4></td>
+                </tr>
+            </table>
+        </main>
+        <h5>
+          Тепер я вам покажу кращі на мою думку по жанрам фільми:  Брюс Всемогутній, Сайлент Хілл, Тітанік, Термінатор 2, Мовчання ягнят, Шерлок Холмс
+        </h5>
+        <p><img src="https://uaserials.pro/posters/2502.jpg">
+        <img src="https://posmotreli.su/var/www/html/images/thumb/Silent-Hill-Poster.png/300px-Silent-Hill-Poster.png">
+        <img src="https://upload.wikimedia.org/wikipedia/uk/3/3f/Tytanik_%28UKR_Poster%2C_2012%29.jpg">
+        <img src="https://eneyida.tv/uploads/posts/2019-10/1570104809_1.jpg">
+        <img src="https://uaserials.pro/posters/2067.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/uk/d/d4/%D0%A8%D0%B5%D1%80%D0%BB%D0%BE%D0%BA_%D0%A5%D0%BE%D0%BB%D0%BC%D1%81_%28%D1%84%D1%96%D0%BB%D1%8C%D0%BC%29.jpg"></p>
+        <footer id="foot">
+            <p class="foot">Адреса:Харківська, 25 1/4 </p>
+            <p class="foot">Телефон: +0995155873</p>
+        </footer>
+    </body>
+</html>
+For css
+header, footer{
+    background-color: darkblue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+nav a {
+    background-color: lightblue;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 15px;
+    color:white;
+}
+
+.foot {
+    font-size: 12px;
+}
+
+img{
+    width: 650px;
+    height: 450px;
+}
+table, tr, td{
+    border: 3px solid black;
+    
+}
